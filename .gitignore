@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Python ML cache
+.cache/
+.huggingface/
+sentence_transformers/
+
+# Generated
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files
+models/
+*.bin
+*.safetensors
+
+# PostgreSQL
+postgres_data/
+
+# Test
+.pytest_cache/
+.coverage
